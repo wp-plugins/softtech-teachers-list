@@ -1,0 +1,42 @@
+
+
+.st-teachers {
+	width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	font-family: tahoma;
+}
+
+.st-teachers .teachers {
+	width: 32%;
+	float: left;
+	overflow: hidden;
+	margin-right: 2%;
+	margin-bottom: 10px;
+}
+.st-teachers .teachers:nth-child(3n){
+	margin-right: 0;
+}
+.st-teachers .teachers:nth-child(4n){
+	clear: both;
+}
+
+.st-teachers .teachers img {
+	width: 100%;
+	height: auto;
+}
+.st-teachers .teachers h2 {
+	font-family: tahoma;
+}
+.st-teachers .teachers a {
+	color: #666666;
+	text-decoration: none;
+	font-weight: normal;
+}
+.st-teachers .teachers {
+	color: #666666;
+	font-size: 14px;
+	line-height: 1.3em;
+}
